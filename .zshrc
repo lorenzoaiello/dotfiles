@@ -114,5 +114,5 @@ alias ssm='aws ssm start-session --target'
 alias gocov="go test ./... -coverprofile cover.out; go tool cover -html=cover.out -o cover.html"
 alias java8="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/java"
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
