@@ -42,6 +42,7 @@ alias ssm='aws ssm start-session --target'
 alias pycov="py.test --disable-pytest-warnings --cov=api"
 alias gocov="go test ./... -coverprofile cover.out; go tool cover -html=cover.out -o cover.html"
 alias java8="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/java"
+alias g="git"
 
 source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
