@@ -34,6 +34,11 @@ export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 # Utility Aliases
 alias c='clear'
 alias xcode='open -a /Applications/Xcode.app'
+mkcdir ()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
 
 # Infrastructure Related Aliases
 alias ssm='aws ssm start-session --target'
